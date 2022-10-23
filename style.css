@@ -59,3 +59,11 @@ body {
     font-size: 15px;
     text-align: center;
 }
+
+#resume {
+    display: flex;
+    width: 50%;
+    height: 75%;
+    position: fixed;
+    
+}
