@@ -1,8 +1,13 @@
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    text-align: left;
     background: maroon;
     color: antiquewhite;
+    width: auto;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
 }
 
 img {
@@ -11,6 +16,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 25%;
+    padding-bottom: 5px;
 }
 
 figcaption {
@@ -19,5 +25,37 @@ figcaption {
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: white;
+}
+
+.topnavi {
+    overflow: hidden;
+    background-color: maroon;
+    border-radius: 5px;
+  }
+
+.topnavi a {
+    float: left;
+    color: antiquewhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.topnavi a:hover {
+    background-color: goldenrod;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: black;
+}
+
+#textContent p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
 }
