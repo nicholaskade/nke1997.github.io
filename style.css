@@ -61,9 +61,8 @@ body {
 }
 
 #resume {
-    display: flex;
-    width: 50%;
-    height: 75%;
-    position: fixed;
-    
+    display: block;
+    margin: 0 auto;
+    height: 1000px;
+    width: 900px; 
 }
